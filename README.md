@@ -1,0 +1,2 @@
+# RubyistHotlinksReports
+プログラム言語の中でも盛り上がっているインタビューRubyist Hotlinks を分析してみる。Rubyはコミュニティの盛り上がりがすごい。
