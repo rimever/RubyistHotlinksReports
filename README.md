@@ -4,3 +4,13 @@
 https://magazine.rubyist.net/articles/0001/0001-Hotlinks.html
 
 Rubyはコミュニティの盛り上がりがすごい。
+
+
+
+## 使っている技術
+結局、C#
+いつになったらRubyで書くのやら……
+
+- NMeCab
+- HtmlAgilityPack
+- HttpClientとか（HttpClientを詳解しながら　→　https://www.slideshare.net/neuecc/httpclient?ref=http://neue.cc/2013/05/27_405.html）

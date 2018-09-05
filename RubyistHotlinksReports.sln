@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubyistHotlinksReports.Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubyistHotlinksReports.Core", "RubyistHotlinksReports.Core\RubyistHotlinksReports.Core.csproj", "{C409B958-E92B-41B0-9CEB-606D9FB15C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubyistHotlinksReports.WordGraph", "RubyistHotlinksReports.WordGraph\RubyistHotlinksReports.WordGraph.csproj", "{02FEBC77-E165-42F9-8441-47B0437B422A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C409B958-E92B-41B0-9CEB-606D9FB15C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C409B958-E92B-41B0-9CEB-606D9FB15C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C409B958-E92B-41B0-9CEB-606D9FB15C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FEBC77-E165-42F9-8441-47B0437B422A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FEBC77-E165-42F9-8441-47B0437B422A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FEBC77-E165-42F9-8441-47B0437B422A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FEBC77-E165-42F9-8441-47B0437B422A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

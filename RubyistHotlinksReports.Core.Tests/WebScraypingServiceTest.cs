@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using NUnit.Framework;
+using RubyistHotlinksReports.Core.Services;
 
 namespace RubyistHotlinksReports.Core.Tests
 {
@@ -11,13 +12,13 @@ namespace RubyistHotlinksReports.Core.Tests
     public class WebScraypingServiceTest
     {
         /// <summary>
-        /// <seealso cref="WebScraypingService.EnumerableRubyistHotlinksUrl"/>をテストします。
+        /// <seealso cref="WebScraypingService.ToListRubyistHotlinksUrl"/>をテストします。
         /// </summary>
         [Test]
-        public void EnumerableRubyistHotlinksUrl()
+        public void ToListRubyistHotlinksUrl()
         {
             var service = new WebScraypingService();
-            var result = service.EnumerableRubyistHotlinksUrl().Result.ToList();
+            var result = service.ToListRubyistHotlinksUrl().Result;
             Assert.IsTrue(result.Any());
             foreach (var item in result)
             {
@@ -25,14 +26,14 @@ namespace RubyistHotlinksReports.Core.Tests
             }
         }
         /// <summary>
-        /// <seealso cref="WebScraypingService.EnumerableTalks"/>をテストします。
+        /// <seealso cref="WebScraypingService.ToListTalks"/>をテストします。
         /// </summary>
         [Test]
-        public void EnumerableTalks()
+        public void ToListTalks()
         {
             var service = new WebScraypingService();
-            var url = service.EnumerableRubyistHotlinksUrl().Result.FirstOrDefault();
-            var result = service.EnumerableTalks(url).Result.ToList();
+            var url = service.ToListRubyistHotlinksUrl().Result.FirstOrDefault();
+            var result = service.ToListTalks(url).Result;
             Assert.IsTrue(result.Any());
             foreach (var talk in result)
             {
